@@ -694,6 +694,10 @@ ul {
 }
 
 .form-field {
+  margin-bottom: 8px;
+}
+
+.form-field-com {
   margin-bottom: 16px;
 }
 
