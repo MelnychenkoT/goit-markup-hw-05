@@ -694,7 +694,7 @@ ul {
 }
 
 .form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .input-wrapper {
@@ -750,6 +750,7 @@ ul {
 
 .modal-textarea {
   font-size: 12px;
+  height: 120px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
@@ -759,11 +760,8 @@ ul {
   padding: 8px 16px;
   outline: transparent;
   resize: none;
-
   position: relative;
   width: 100%;
-  height: 120px;
-
   font-size: 16px;
   height: 40px;
   padding-left: 38px;
