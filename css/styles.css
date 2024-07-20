@@ -490,6 +490,7 @@ ul {
   width: 208px;
   height: 80px;
   gap: 16px;
+  margin-right: 80px;
 }
 
 .social-text {
@@ -522,6 +523,82 @@ ul {
 .footer-team-social {
   display: flex;
   gap: 16px;
+}
+
+/* footer form */
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-form-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-label {
+}
+
+.footer-input {
+  background-color: transparent;
+  outline: transparent;
+
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 24px;
+  width: 264px;
+  height: 40px;
+  color: #fff;
+  padding-left: 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.footer-input::placeholder {
+  color: #fff;
+}
+
+.footer-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  min-width: 165px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: #31d0aa;
+}
+
+.footer-icon {
+  fill: #f4f4fd;
+  margin-left: 16px;
 }
 
 /* modal window */
